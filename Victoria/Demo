@@ -1,0 +1,17 @@
+install nodejs
+
+curl -sL https://rpm.nodesource.com/setup_10.x | sudo bash -
+sudo yum install nodejs
+
+
+// get gloabl server installed
+
+sudo npm i -g serve
+
+open up ports:
+
+8080 for jenkins
+8888 for spring app
+5000 for react app
+
+
