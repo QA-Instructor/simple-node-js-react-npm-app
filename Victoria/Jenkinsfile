@@ -11,7 +11,7 @@ pipeline {
         }
         stage('Test application') {
             steps {
-                sh '../jenkins/scripts/tests.sh'
+                sh '../jenkins/scripts/test.sh'
             }
         }
         stage('Build application') {
